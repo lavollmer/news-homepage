@@ -5,7 +5,7 @@ import Gaming from "../assets/images/image-gaming-growth.jpg";
 
 const CountdownCards = () => {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-1 gap-4">
+    <div className="grid grid-cols-3 md:grid-cols-1 gap-4 p-5">
       <div className="flex flex-row p-10">
         <div>
           <img src={Retro} alt="Retro PCs" />

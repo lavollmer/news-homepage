@@ -2,8 +2,8 @@ import React from "react";
 
 const NewSection = () => {
   return (
-    <div>
-      <h1 className="font-bold md:text-3xl">New</h1>
+    <div className="bg-black">
+      <h1 className="font-bold md:text-4xl text-orange-400 px-10 pt-10">New</h1>
       <div>
         <h2>Hydrogen VS Electric Cars</h2>
         <p>Will hydrogen-fueled cars ever catch up to EVs?</p>

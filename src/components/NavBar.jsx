@@ -8,9 +8,12 @@ const NavBar = () => {
   //useState hook from React - determines whether the sidebar is open or not
   const [isOpen, setIsOpen] = useState(false); //useState hook to manage the state of the navbar
   return (
-    <div>
+    <div className="flex flex-row items-center p-10">
       {/* Menu icon img is only visible when the screen is smaller than medium - when toggled isOpen state opening or closing sidebar */}
-      <button className="md:hidden block top-0 right-0" onClick={() => setIsOpen(!isOpen)}>
+      <button
+        className="md:hidden block top-0 right-0"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <img
           src={IconMenu}
           alt="menu icon displays when application is mobile"
@@ -25,15 +28,18 @@ const NavBar = () => {
         } md:relative md:translate-x-0 md:w-auto`}
       >
         {/* Close Icon to close the side navigation bar when in mobile */}
-        <button className="md:hidden top-0 right-0" onClick={() => setIsOpen(false)}>
+        <button
+          className="md:hidden top-0 right-0"
+          onClick={() => setIsOpen(false)}
+        >
           <img src={IconClose} alt="close icon" />
         </button>
-        <div className="flex-col">
-        <Link to="/">Home</Link>
-        <Link to="/new">New</Link>
-        <Link to="/popular">Popular</Link>
-        <Link to="/trending">Trending</Link>
-        <Link to="/categories">Categories</Link>
+        <div className="flex flex-row text-gray-500 items-center justify-end space-x-5 w-full p-5">
+          <Link to="/">Home</Link>
+          <Link to="/new">New</Link>
+          <Link to="/popular">Popular</Link>
+          <Link to="/trending">Trending</Link>
+          <Link to="/categories">Categories</Link>
         </div>
       </nav>
       {/* hidden element hides the second nav on smaller screens, md makes the tailwind css display on larger screens than medium
