@@ -8,15 +8,15 @@ import Countdown from "./components/Countdown"; // Import the Countdown componen
 function App() {
   return (
     <div>
-      <div className="flex flex-row px-40 justify-between items-center">
+      <div className="flex flex-row px-60 justify-between items-center">
           <Icon />
           <NavBar />
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-40">
-        <SplashPage span="col-span-3" />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-60">
+        <SplashPage span="col-span-2" />
         <NewSection span="col-span-1"/>
       </div>
-      <div className="grid grid-cols-1 gap-4 px-40 py-10">
+      <div className="grid grid-cols-1 gap-4 px-60 py-10">
         <Countdown />
       </div>
     </div>

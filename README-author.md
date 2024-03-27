@@ -87,6 +87,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 6. Ran npm run build in terminal to rebuild the project - tailwind css was not set up correctly/being imported
 7. Grid container formatting for the countdown sections - formatting the divs to make sense - switched to 6 columns instead of 3
 8. Styling the button itself and not the container the button sits in - 
+9. span props for the container
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
