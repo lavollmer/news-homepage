@@ -52,7 +52,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 3. Run npm dev to see the website and that everything was functioning properly
 4. Reviewed the notes and suggestions for the news-homepage design and challenge
 5. Set up site on Netlify - Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
-6. 
+6. Planning process for design with ReactJS and JavaScript
+  a. Extract zip file to open images and be able to move into the assets/images folder
+7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 
 ### Built with
 
@@ -71,6 +73,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+
+1. Extract zip file on Microsoft to be able to access images to move into folder
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
