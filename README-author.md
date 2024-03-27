@@ -48,7 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 1. Set up Github Repo - The first steps to my process were to set up my Github Repo publically. I created a Github Repo called news-homepage. After that, I synced my Github Repo with my local machine and intiatlized the Repo. 
-2. Set up React/Vite/Node.js
+2. Set up React/Vite/Node.js/TailwindCSS - Tailwind CSS is a utility-first CSS framework that provides a wide range of pre-defined classes to style your website or application
 3. Run npm dev to see the website and that everything was functioning properly
 4. Reviewed the notes and suggestions for the news-homepage design and challenge
 5. Set up site on Netlify - Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
