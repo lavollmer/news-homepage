@@ -12,9 +12,9 @@ function App() {
           <Icon />
           <NavBar />
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-40">
-        <SplashPage />
-        <NewSection />
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-40">
+        <SplashPage span="col-span-3" />
+        <NewSection span="col-span-1"/>
       </div>
       <div className="grid grid-cols-1 gap-4 px-40 py-10">
         <Countdown />

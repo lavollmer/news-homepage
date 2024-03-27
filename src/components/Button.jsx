@@ -2,9 +2,11 @@ import React from 'react'
 
 const Button = () => {
   return (
-    <div className='bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-4 w-32 h-8'>
+    <div>
       {/* Button HTML tag to create a button with the label of Read More */}
-      <button>READ MORE</button>
+      <button className='p-5 bg-orange-600 hover:bg-orange-700 font-bold py-2 px-4'>
+        <h1 className='text-white text-sm'>READ MORE</h1>
+        </button>
     </div>
   )
 }

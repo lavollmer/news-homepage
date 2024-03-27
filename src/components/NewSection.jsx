@@ -1,7 +1,8 @@
 import React from "react";
 
-const NewSection = () => {
+const NewSection = ({span}) => {
   return (
+    <div className={`${span}`}>
     <div className="bg-black">
       <h1 className="font-bold md:text-4xl text-orange-400 px-10 pt-10">New</h1>
       <div>
@@ -22,6 +23,7 @@ const NewSection = () => {
           that means.
         </p>
       </div>
+    </div>
     </div>
   );
 };
