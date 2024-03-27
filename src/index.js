@@ -1,14 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import 'tailwindcss/tailwind.css'; // Import Tailwind CSS
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom"; // importing BrowserRouter and renaming Router
+// import './index.css';
+import App from "./App";
+import "tailwindcss/tailwind.css"; // Import Tailwind CSS
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+//Wrapping the App component with the Router component to enable routing in all the components
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
-
-
