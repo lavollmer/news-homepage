@@ -5,7 +5,7 @@ import SplashImageDesktop from "../assets/images/image-web-3-desktop.jpg"; // Im
 
 const SplashPage = () => {
   return (
-    <div className='grid grid-cols-3 gap-4'>
+    <div className='grid grid-cols-1 gap-4'>
         <img src={SplashImageDesktop} alt="Colorful blocks for splash page desktop" className='col-span-2' />
         <CardInfo className="col-span-1"/>
     </div>
