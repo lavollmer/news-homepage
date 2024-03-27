@@ -1,6 +1,7 @@
 import React from 'react'
-import SplashImageDesktop from "../assets/images/image-web-3-desktop.jpg"; // Importing image for desktop
 import Button from "./Button"; // importing Button component
+import SplashImageDesktop from "../assets/images/image-web-3-desktop.jpg"; // Importing image for desktop
+
 
 const SplashPage = () => {
   return (
