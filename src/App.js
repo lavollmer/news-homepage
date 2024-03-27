@@ -12,7 +12,6 @@ function App() {
         <NavBar />
       </div>
       <SplashPage />
-      <h1>Hello</h1>
       <NewSection />
     </div>
   );
