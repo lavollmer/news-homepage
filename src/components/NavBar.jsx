@@ -8,7 +8,7 @@ const NavBar = () => {
   //useState hook from React - determines whether the sidebar is open or not
   const [isOpen, setIsOpen] = useState(false); //useState hook to manage the state of the navbar
   return (
-    <div className="flex flex-row pt-10 pb-10 justify-end">
+    <div className="flex flex-row pt-5 pb-10 justify-end">
       {/* Menu icon img is only visible when the screen is smaller than medium - when toggled isOpen state opening or closing sidebar */}
       <button
         className="md:hidden block top-0 right-0"
