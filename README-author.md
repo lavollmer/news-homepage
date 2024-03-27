@@ -54,6 +54,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 5. Set up site on Netlify - Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
 6. Planning process for design with ReactJS and JavaScript
   a. Extract zip file to open images and be able to move into the assets/images folder
+  b. Installed "ES7+ React/Redux/React-Native snippets" extension - to be able to use short commands in React
+  c. Installed font required for project to computer
+  d. Install react-router-dom for navigation between pages
+  e. Install prettier to format document
 7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 
 ### Built with
