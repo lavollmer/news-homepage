@@ -85,6 +85,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 4. Added manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." Realized related to index.html file in public folder - removed mention of manifest file in index.html folder and worked - removed error
 5. Added button component in App.js when really needed in another component - imported with no use and ESLint errored a message. Also button HTML is <button> and not <Button>
 6. Ran npm run build in terminal to rebuild the project - tailwind css was not set up correctly/being imported
+7. Grid container formatting for the countdown sections - formatting the divs to make sense - switched to 6 columns instead of 3
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
