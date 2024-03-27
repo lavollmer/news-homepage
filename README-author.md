@@ -58,7 +58,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   c. Installed font required for project to computer
   d. Install react-router-dom for navigation between pages
   e. Install prettier to format document
-7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content. Went to the copywriting provided and updated.
+8. Started with the navigation bar and build. Planning out reusable pieces to build the application.
 
 ### Built with
 
