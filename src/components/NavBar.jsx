@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"; //import Link (creating links) from rea
 const NavBar = () => {
   return (
     <div>
-      <nav className="flex flex-col items-center justify-between">
+      <nav className="flex flex-row items-center justify-between p-5">
         <Link to="/">Home</Link>
         <Link to="/new">New</Link>
         <Link to="/popular">Popular</Link>
