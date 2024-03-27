@@ -6,7 +6,7 @@ import SplashImageDesktop from "../assets/images/image-web-3-desktop.jpg"; // Im
 
 const SplashPage = () => {
   return (
-    <div>
+    <div className='md:flex md:flex-col'>
         <img src={SplashImageDesktop} alt="Colorful blocks for splash page desktop" />
         <CardInfo />
         <Button />

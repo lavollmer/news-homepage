@@ -2,9 +2,9 @@ import React from 'react'
 
 const Button = () => {
   return (
-    <div className='bg-blue-500 text-white'>
+    <div className='bg-orange-800 text-white items-center'>
       {/* Button HTML tag to create a button with the label of Read More */}
-      <button>Read More</button>
+      <button>READ MORE</button>
     </div>
   )
 }

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div>
       {/* Menu icon img is only visible when the screen is smaller than medium - when toggled isOpen state opening or closing sidebar */}
-      <button className="md:hidden block" onClick={() => setIsOpen(!isOpen)}>
+      <button className="md:hidden block top-0 right-0" onClick={() => setIsOpen(!isOpen)}>
         <img
           src={IconMenu}
           alt="menu icon displays when application is mobile"
@@ -36,13 +36,14 @@ const NavBar = () => {
         <Link to="/categories">Categories</Link>
         </div>
       </nav>
-      <nav className="flex flex-row items-center justify-between p-5">
+      {/* hidden element hides the second nav on smaller screens, md makes the tailwind css display on larger screens than medium
+      <nav className="hidden md:flex md:flex-row items-center justify-between p-5">
         <Link to="/">Home</Link>
         <Link to="/new">New</Link>
         <Link to="/popular">Popular</Link>
         <Link to="/trending">Trending</Link>
         <Link to="/categories">Categories</Link>
-      </nav>
+      </nav> */}
     </div>
   );
 };
