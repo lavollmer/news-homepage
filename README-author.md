@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+In this project, I created a main News websit homepage based on information provided to me for design. The main technical frameworks I used were ReactJS, Tailwind CSS, and Vite. 
 
 ## Table of contents
 
@@ -41,17 +41,28 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github Repo: [Github Repo news-homepage] https://github.com/lavollmer/news-homepage
+- Live Site URL: [News Homepage Netlify](https://news-homepage-lauradev.netlify.app/)
+- Substack Article Solution: [Add solution URL here](https://your-solution-url.com)
 
 ## My process
+
+1. Set up Github Repo - The first steps to my process were to set up my Github Repo publically. I created a Github Repo called news-homepage. After that, I synced my Github Repo with my local machine and intiatlized the Repo. 
+2. Set up React/Vite/Node.js
+3. Run npm dev to see the website and that everything was functioning properly
+4. Reviewed the notes and suggestions for the news-homepage design and challenge
+5. Set up site on Netlify - Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
+6. 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- ReactJS
+- Next.js
+- Tailwind CSS
+- Vite
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
@@ -107,5 +118,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+This project was done based upon Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
