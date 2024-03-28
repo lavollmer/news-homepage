@@ -4,8 +4,8 @@ const Button = () => {
   return (
     <div>
       {/* Button HTML tag to create a button with the label of Read More */}
-      <button className='p-5 bg-[#F25D4F] font-bold py-2 px-8 focus:outline-none focus:ring-2 focus:ring-black'>
-        <h1 className='text-white text-xs tracking-widest font-inter-regular'>READ MORE</h1>
+      <button className='focus:bg-blue-900 p-5 bg-[#F25D4F] font-bold py-2 px-8'>
+        <h1 className='hover:text-black text-white text-xs tracking-widest font-inter-regular'>READ MORE</h1>
         </button>
     </div>
   )

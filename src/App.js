@@ -10,7 +10,7 @@ function App() {
     <div className="bg-[#FEFDF9]">
       <div className="flex flex-row px-60 pt-10 justify-between items-center">
           <Icon />
-          <NavBar />
+          <NavBar className="bg-[#FEFDF9]" />
         </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-60">
         <SplashPage span="col-span-2" />
