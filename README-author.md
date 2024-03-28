@@ -109,12 +109,12 @@ See below my steps to completing it:
 
 ### What I learned
 
-There were a number of things I learned building this project which was fun and exciting. 
+This project was both fun and challenging, providing numerous learning opportunities. 
 
-Things I learned as I went through the build:
-1. An indvidual needs to extract the zip file on Microsoft computers to be able to access images to move into the src images folder in VS Studio Code. This was the first project I build on a Windows computer, normally I use MacOS.
-2. In the beginning when I was cleaning my file for basic structure, I deleted the public index.html file. I learned to not delete your public index.html file. I had to go back to my Github previous commit save, copy that file and add it back into my project. The public index.html file is the main HTML page that is loaded when someone visits the site or is the "entry point". In a React application, the file includes a div with the id of roo and the React app is loaded into this div by JS code. When you run npm run build the React scripts take the JS code and inject it into this index.html file which is served to the brower. If deleted, the build process won't know where to inject the JS code and won't load the file to your site.
-3. With react-router-dom, an individual needs to wrap the project's code in the index.js file. This allows for the project to receive all functionality of the router dom for all components.
+Here are some key takeaways:
+1. **File Extraction on Windows**: An indvidual needs to extract the zip file on Microsoft computers to be able to access images to move into the src images folder in VS Studio Code. This was the first project I build on a Windows computer, normally I use MacOS.
+2. **Importance of `public/index.html`**: In the beginning when I was cleaning my file for basic structure, I deleted the public index.html file. I learned to not delete your public index.html file. I had to go back to my Github previous commit save, copy that file and add it back into my project. The public index.html file is the main HTML page that is loaded when someone visits the site or is the "entry point". In a React application, the file includes a div with the id of roo and the React app is loaded into this div by JS code. When you run npm run build the React scripts take the JS code and inject it into this index.html file which is served to the brower. If deleted, the build process won't know where to inject the JS code and won't load the file to your site.
+3. **Using `react-router-dom`**: With react-router-dom, an individual needs to wrap the project's code in the index.js file. This allows for the project to receive all functionality of the router dom for all components.
 
 ```js
 //Wrapping the App component with the Router component to enable routing in all the components
@@ -129,8 +129,8 @@ root.render(
 
 ```
 
-4. I added a manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." I later realized the manifest json file was related to index.html file in public folder. I removed the manifest file in index.html folder and it removed the error. The manifest.json file is used to configure how the app appears on the home screen on smartphones. It's not mandatory for app applications. I did not need the features of the file.
-5. With the button component, I had a few errors that I resolved. A simple yet error-friendly issue was the capitilization of the button from Button to button. I also added the button component in App.js when in reality I needed it in another component. Due to it being in the App.js, I was receiving a ESLint error message due to it not being used in App.js To resolve I removed the import of the button from App.js. Furthermore, I needed to style the button itself and not the container in which is was a part of - this fixed some of the styling issues with the button.
+4. **Understanding the manifest.json File**: I added a manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." I later realized the manifest json file was related to index.html file in public folder. I removed the manifest file in index.html folder and it removed the error. The manifest.json file is used to configure how the app appears on the home screen on smartphones. It's not mandatory for app applications. I did not need the features of the file.
+5. **Building the button component**:With the button component, I had a few errors that I resolved. A simple yet error-friendly issue was the capitilization of the button from Button to button. I also added the button component in App.js when in reality I needed it in another component. Due to it being in the App.js, I was receiving a ESLint error message due to it not being used in App.js To resolve I removed the import of the button from App.js. Furthermore, I needed to style the button itself and not the container in which is was a part of - this fixed some of the styling issues with the button.
 
 ```js
 const Button = () => {
@@ -145,8 +145,8 @@ const Button = () => {
 }
 
 ```
-6. I didn't realize I had to run "npm run build" in terminal to rebuild the project. I learned this throughout and thus fixed the error message and build. 
-7. Grid container formatting was challenging at first. I used it for the countdown sections. I was able to educate myself about this on Tailwind CSS.
+6. **Understanding npm run build command**:I didn't realize I had to run "npm run build" in terminal to rebuild the project. I learned this throughout and thus fixed the error message and build. 
+7. **Tailwind CSS Grid Container** Grid container formatting was challenging at first. I used it for the countdown sections. I was able to educate myself about this on Tailwind CSS.
 
 ```js
 const CountdownCa = () => {
