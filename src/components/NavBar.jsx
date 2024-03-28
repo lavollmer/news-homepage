@@ -34,7 +34,7 @@ const NavBar = () => {
         >
           <img src={IconClose} alt="close icon" />
         </button>
-        <div className="flex flex-row text-gray-500 justify-end space-x-10 w-full pb-10">
+        <div className="flex flex-row text-gray-500 font-inter-regular justify-end space-x-10 w-full pb-10">
           <Link to="/">Home</Link>
           <Link to="/new">New</Link>
           <Link to="/popular">Popular</Link>
