@@ -8,9 +8,9 @@ import CountdownCa from "./components/CountdownCa";
 function App() {
   return (
     <div className="bg-[#FEFDF9]">
-      <div className="flex items-center justify-between flex-row md:flex-row px-4 md:px-60 pt-10 ">
+      <div className="flex items-center justify-between flex-row md:flex-row px-4 md:px-60 p-10 ">
           <Icon />
-          <NavBar className="bg-[#FEFDF9]" />
+          <NavBar  />
         </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 px-4 md:px-60">
         <SplashPage span="col-span-2" />
