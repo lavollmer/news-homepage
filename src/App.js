@@ -7,7 +7,7 @@ import CountdownCa from "./components/CountdownCa";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#FEFDF9]">
       <div className="flex flex-row px-60 pt-10 justify-between items-center">
           <Icon />
           <NavBar />

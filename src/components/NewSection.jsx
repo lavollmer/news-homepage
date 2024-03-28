@@ -3,8 +3,8 @@ import React from "react";
 const NewSection = ({span}) => {
   return (
     <div className={`${span}`}>
-    <div className="bg-black p-5">
-      <h1 className=" md:text-4xl text-orange-400 px-2 font-inter-bold">New</h1>
+    <div className="bg-[#00001A] p-5">
+      <h1 className=" md:text-4xl text-[#E4A95F] px-2 font-inter-bold">New</h1>
       <div>
         <h2 className=" text-1xl text-white px-2 pt-5 font-inter-bold">Hydrogen VS Electric Cars</h2>
         <p className="text-gray-500 text-xs font-inter-regular px-2 pt-5 border-b border-gray-400 pb-5">Will hydrogen-fueled cars ever catch up to EVs?</p>

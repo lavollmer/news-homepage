@@ -11,7 +11,7 @@ const CountdownCa = () => {
           <img src={Retro} alt="Retro PCs" />
         </div>
         <div className="col-span-3 md:col-span-4 pl-2 space-y-1">
-          <h1 className="text-gray-300 font-inter-bold text-2xl">01</h1>
+          <h1 className="text-[#D3D1D2] font-inter-bold text-2xl">01</h1>
           <h2 className="text-black-800 font-inter-bold text-sm ">
             Reviving Retro PCs
           </h2>
@@ -25,7 +25,7 @@ const CountdownCa = () => {
           <img src={Laptops} alt="Top of laptop" />
         </div>
         <div className="col-span-3 md:col-span-4 pl-2 space-y-1">
-          <h1 className="text-gray-300 font-inter-bold text-2xl">02</h1>
+          <h1 className="text-[#D3D1D2] font-inter-bold text-2xl">02</h1>
           <h2 className="text-black-800 font-inter-bold text-sm ">
             Top 10 Laptops of 2022
           </h2>
@@ -39,7 +39,7 @@ const CountdownCa = () => {
           <img src={Gaming} alt="Gaming controller" />
         </div>
         <div className="col-span-3 md:col-span-4 pl-2 space-y-1">
-          <h1 className="text-gray-300 font-inter-bold text-2xl">03</h1>
+          <h1 className="text-[#D3D1D2] font-inter-bold text-2xl">03</h1>
           <h2 className="text-black-800 font-inter-bold text-sm ">
             The Growth of Gaming
           </h2>

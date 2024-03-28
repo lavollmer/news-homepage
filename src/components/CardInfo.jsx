@@ -5,7 +5,7 @@ const CardInfo = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
       <div>
-        <h1 className="font-bold md:text-5xl font-inter-extrabold">The Bright Future of Web 3.0?</h1>
+        <h1 className="text-[#00001A] md:text-5xl font-inter-extra-bold">The Bright Future of Web 3.0?</h1>
       </div>
       <div className="flex flex-col lp-0 font-inter-regular text-sm text-gray-600">
         <p>

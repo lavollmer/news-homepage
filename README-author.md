@@ -70,6 +70,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   b. Increased the pt to 10 to push down the application a bit to match the example
   c. Styling the countdown section - updated
 11. Font styling 
+12. Color styling with Coolors
 
 ### Built with
 
