@@ -1,6 +1,6 @@
 # News-Homepage
 
-I created a News website homepage based on an example provided to me for design that I needed to match 1:1. The design image was provided with no additional help regarding code or framworks to use. The main technical frameworks I used were ReactJS, JavaScript, TailwindCSS, and Vite. 
+This project involved creating a replica of a News website homepage, adhering strictly to a provided design. The challenge was to match the design 1:1 without any additional guidance on the code or frameworks to be used. The primary technologies leveraged for this project were ReactJS, JavaScript, TailwindCSS, and Vite.
 
 ## Table of contents
 
@@ -18,19 +18,16 @@ I created a News website homepage based on an example provided to me for design 
 
 ## Overview
 
-The project encompassed creating a News homepage using ReactJS, Tailwind CSS, JavaScript and Vite. I was given a folder of assets including design examples, images, logos, and fonts to use. The images included computer and gaming images. The fonts was Inter Regular, Inter  Bold and Inter ExtraBold. The website included a logo in the top left corner, a navigation bar on desktop, a navigation side bar that would open by hamburger style for mobile, three distinct sections, a button to read more and additional functionality features. The project included specific color combinations, styling and knowledge of grid container layouts.
+The project's scope involved developing a News homepage using ReactJS, Tailwind CSS, JavaScript, and Vite. I was provided with a collection of assets, including design examples, images, logos, and fonts. The images were primarily computer and gaming-themed. The fonts used were Inter Regular, Inter Bold, and Inter ExtraBold. The website featured a logo in the top left corner, a desktop navigation bar, a mobile navigation sidebar with a hamburger menu, three distinct sections, a 'read more' button, and several other functional features. The project required a precise understanding of color combinations, styling, and grid container layouts.
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+The website was designed to be responsive, providing an optimal layout for any device's screen size. All interactive elements on the page were designed with hover and focus states for enhanced user experience.
 
 ### Screenshots
 
 
-Website Screenshots:
+**Website Screenshots:**
 
 Netlify Deployed Website by Me (Desktop)
 
@@ -39,7 +36,7 @@ Netlify Deployed Website by Me (Desktop)
 Example Desktop Website
 ![File Image given to me by Frontend Mentor](./src/assets/readmeimages/desktop-design.jpg)
 
-Mobile Screenshots:
+**Mobile Screenshots:**
 
 
 Netlify Deployed Website by Me (Mobile)
@@ -51,7 +48,7 @@ Example Mobile Screenshot
 
 ![File Mobile Image given to me by Frontend Mentor](./src/assets/readmeimages/mobile-design.jpg)
 
-Navigation Bar Screenshot:
+**Navigation Bar Screenshots:**
 
 Navigation Bar in Mobile Website by Me
 
@@ -64,7 +61,7 @@ Example Navigation Screenshot
 
 ### Links
 
-- Github Repo: [Github Repo news-homepage] https://github.com/lavollmer/news-homepage
+- Github Repo: [LV Github Repo news-homepage](https://github.com/lavollmer/news-homepage)
 - Live Site URL: [News Homepage Netlify](https://news-homepage-lauradev.netlify.app/)
 
 ## My process
@@ -90,7 +87,8 @@ See below my steps to completing it:
   a. I removed excess components that I thought I would need but didn't. I had a Countdown component to house the CountdownCards component realizing I didn't need it. Additionally I deleted the MobileMenu component care as well.
   b. Another example, was I increased the top padding of the website to 10 to align the website more with the example on the desktop version.
   c. Futhermore, I used Coolors application to find the correct colors sourced from the image to use it in my website. This is the Coolors colors I used:
-  ![Coolors Colors](./src/assets/readmeimages/CoolorsColors.jpg.png)
+  <img src="./src/assets/readmeimages/CoolorsColors.jpg.png" width="600">
+
   d. I worked on Font styling with the given Fonts. I realized I had to import the fonts through a path in the App.css file before importing tailwind CSS utilities. The files give were incompatible with VS Studio Code so I used Transfonter to change the TTF files into WOFF and WOFF2 files. A TTF file is a TrueType Font file which is binary and that is used my the operating system. VS Studio Code is a text editor and cannot open binary files there you must change it to WOFF files.  Afterwards, I had to import those fonts into the tailwind.config.js file to be able to use in the website application. 
   e. Adding an icon into the HTML of the public folder for the tab image. I found a free image online of a world icon in which I added to the public folder for use.
 11. In the prompt, it was stated to add functionality with hover and focus states of user areas. I was able to add hover tailwind CSS utilities to the navbar and the button to guide users on what they were selecting.
