@@ -61,7 +61,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content. Went to the copywriting provided and updated.
 8. Started with the navigation bar and build. Planning out reusable pieces to build the application.
 9. Went down the page and built out the main sections to a get a resemblance of what it should look like
-10. Went back and tweaked areas that needed improvement
+10. Went back and tweaked areas that needed improvement 
+  a. removed excess component thought I would need but didn't - countdowncards to countdown - didn't need to
+  b. Increased the pt to 10 to push down the application a bit to match the example
 
 ### Built with
 

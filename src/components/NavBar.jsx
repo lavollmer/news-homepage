@@ -34,7 +34,7 @@ const NavBar = () => {
         >
           <img src={IconClose} alt="close icon" />
         </button>
-        <div className="flex flex-row text-gray-500 justify-end space-x-5 w-full pb-10">
+        <div className="flex flex-row text-gray-500 justify-end space-x-10 w-full pb-10">
           <Link to="/">Home</Link>
           <Link to="/new">New</Link>
           <Link to="/popular">Popular</Link>
@@ -42,14 +42,6 @@ const NavBar = () => {
           <Link to="/categories">Categories</Link>
         </div>
       </nav>
-      {/* hidden element hides the second nav on smaller screens, md makes the tailwind css display on larger screens than medium
-      <nav className="hidden md:flex md:flex-row items-center justify-between p-5">
-        <Link to="/">Home</Link>
-        <Link to="/new">New</Link>
-        <Link to="/popular">Popular</Link>
-        <Link to="/trending">Trending</Link>
-        <Link to="/categories">Categories</Link>
-      </nav> */}
     </div>
   );
 };
