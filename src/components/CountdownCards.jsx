@@ -5,14 +5,20 @@ import Gaming from "../assets/images/image-gaming-growth.jpg";
 
 const CountdownCards = () => {
   return (
-    <div className="grid grid-col-1 md:grid-cols-6 w-full ">
-      <img src={Retro} alt="Retro PCs" />
-      <div className="flex flex-col justify-start">
-        <h1 className="text-gray-400 font-bold text-4xl">01</h1>
-        <h2 className="text-black-800 font-bold text-xl ">Reviving Retro PCs</h2>
-        <p className="text-gray-800 text-md ">
-          What happens when old PCs are given modern upgrades?
-        </p>
+    <div className="grid grid-col-1 md:grid-cols-6 space-y-4">
+      <div className="flex flex-row justify-between">
+        <div>
+          <img src={Retro} alt="Retro PCs" />
+        </div>
+        <div className="flex flex-col justify-start">
+          <h1 className="text-gray-400 font-bold text-3xl">01</h1>
+          <h2 className="text-black-800 font-bold text-lg ">
+            Reviving Retro PCs
+          </h2>
+          <p className="text-gray-800 text-sm ">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
       </div>
       <div>
         <img src={Laptops} alt="Top of laptop" />
