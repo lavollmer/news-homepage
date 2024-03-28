@@ -1,12 +1,12 @@
-# Frontend Mentor - News homepage solution
+# News-Homepage
 
-In this project, I created a main News websit homepage based on information provided to me for design. The main technical frameworks I used were ReactJS, Tailwind CSS, and Vite. 
+I created a News website homepage based on an example provided to me for design that I needed to match 1:1. The design image was provided with no additional help regarding code or framworks to use. The main technical frameworks I used were ReactJS, JavaScript, TailwindCSS, and Vite. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,9 +16,9 @@ In this project, I created a main News websit homepage based on information prov
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+The project encompassed creating a News homepage using ReactJS, Tailwind CSS, JavaScript and Vite. I was given a folder of assets including design examples, images, logos, and fonts to use. The images included computer and gaming images. The fonts was Inter Regular, Inter  Bold and Inter ExtraBold. The website included a logo in the top left corner, a navigation bar on desktop, a navigation side bar that would open by hamburger style for mobile, three distinct sections, a button to read more and additional functionality features. The project included specific color combinations, styling and knowledge of grid container layouts.
 
 ### The challenge
 
@@ -27,13 +27,26 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 Website Screenshots:
-![Screenshot of Desktop Image on Localhost](./src/assets/readmeimages/ScreenshotLocalHostDesktopImage.png)
+![Screenshot of Desktop Image on Netlify](./src/assets/readmeimages/DesktopScreenshotLV.png)
 
 Example asked to match to:
 ![File Image given to me by Frontend Mentor](./src/assets/readmeimages/desktop-design.jpg)
+
+Mobile Screenshot:
+![Screenshot of Mobile Image on Netlify](./src/assets/readmeimages/Mobile_LV.png)
+![Screenshot of Mobile Image on Netlify](./src/assets/readmeimages/MobileImage2LV.png)
+
+Example Mobile Screenshot:
+![File Mobile Image given to me by Frontend Mentor](./src/assets/readmeimages/mobile-design.jpg)
+
+Navigation Bar Screenshot:
+![Screenshot of Desktop Image on Netlify](./src/assets/readmeimages/NavbarMobileLV.png)
+
+Example Navigation Screenshot:
+![File Navigation Image given to me by Frontend Mentor](./src/assets/readmeimages/mobile-menu.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
