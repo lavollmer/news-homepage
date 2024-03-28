@@ -29,55 +29,63 @@ Users should be able to:
 
 ### Screenshots
 
+
 Website Screenshots:
+
+Netlify Deployed Website by Me (Desktop)
+
 ![Screenshot of Desktop Image on Netlify](./src/assets/readmeimages/DesktopScreenshotLV.png)
 
-Example asked to match to:
+Example Desktop Website
 ![File Image given to me by Frontend Mentor](./src/assets/readmeimages/desktop-design.jpg)
 
-Mobile Screenshot:
+Mobile Screenshots:
+
+
+Netlify Deployed Website by Me (Mobile)
+
 ![Screenshot of Mobile Image on Netlify](./src/assets/readmeimages/Mobile_LV.png)
 ![Screenshot of Mobile Image on Netlify](./src/assets/readmeimages/MobileImage2LV.png)
 
-Example Mobile Screenshot:
+Example Mobile Screenshot
+
 ![File Mobile Image given to me by Frontend Mentor](./src/assets/readmeimages/mobile-design.jpg)
 
 Navigation Bar Screenshot:
+
+Navigation Bar in Mobile Website by Me
+
 ![Screenshot of Desktop Image on Netlify](./src/assets/readmeimages/NavbarMobileLV.png)
 
-Example Navigation Screenshot:
+Example Navigation Screenshot
+
 ![File Navigation Image given to me by Frontend Mentor](./src/assets/readmeimages/mobile-menu.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
 - Github Repo: [Github Repo news-homepage] https://github.com/lavollmer/news-homepage
 - Live Site URL: [News Homepage Netlify](https://news-homepage-lauradev.netlify.app/)
-- Substack Article Solution: [Add solution URL here](https://your-solution-url.com)
 
 ## My process
 
-1. Set up Github Repo - The first steps to my process were to set up my Github Repo publically. I created a Github Repo called news-homepage. After that, I synced my Github Repo with my local machine and intiatlized the Repo. 
-2. Set up React/Vite/Node.js/TailwindCSS - Tailwind CSS is a utility-first CSS framework that provides a wide range of pre-defined classes to style your website or application
-3. Run npm dev to see the website and that everything was functioning properly
-4. Reviewed the notes and suggestions for the news-homepage design and challenge
-5. Set up site on Netlify - Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. 
-6. Planning process for design with ReactJS and JavaScript
-  a. Extract zip file to open images and be able to move into the assets/images folder
-  b. Installed "ES7+ React/Redux/React-Native snippets" extension - to be able to use short commands in React
-  c. Installed font required for project to computer
-  d. Install react-router-dom for navigation between pages
-  e. Install prettier to format document
-7. Structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content. Went to the copywriting provided and updated.
-8. Started with the navigation bar and build. Planning out reusable pieces to build the application.
-9. Went down the page and built out the main sections to a get a resemblance of what it should look like
+My process for building this website involved planning, building and refractoring code. This project took me about 1.5 business days to complete start to finish.
+
+See below my steps to completing it:
+1. Set up Github Repo - The first steps to my process were to set up my Github Repo publicaly. I created a Github Repo called news-homepage. After that, I synced my Github Repo with my local machine and intiatlized the Repo. 
+2. Set up React/Vite/Node.js/TailwindCSS in my project - For the design aspect I chose to use Tailwind CSS. It is a utility-first CSS framework that provides a wide range of pre-defined classes to style your website or application.
+3. Before continuing on any coding, I ran "run npm dev" to see the basic website and that everything was functioning properly. I also made my first few commits to check that my Github was set up properly.
+4. After everything was running smoothly, I reviewed the notes and layout for the news-homepage design challenge. I thought about how to create reusable components, the best way to format the grid container, as well as any other minor details (colors, fonts, etc).
+5. Next I set up my site on Netlify. This allowed me to configure my repository to publish my code to a web address. My Netlify website is avilable to view in the Links section of this README.
+6. After this, I did more planning with the design using ReactJS, Tailwind CSS and JavaScript.
+  a. The given images, layout and font were in a zip file. I extracted the zip file to open images and be able to move into the assets/images folder within the src of my project.
+  b. In VS Studio Code, I installed "ES7+ React/Redux/React-Native snippets" extension - to be able to use short commands in ReactJS.
+  c. I installed the given font required for the project on to my computer. I later realized there was a different way to import the fonts which I will go into detail later.
+  d. Install in termainl react-router-dom for navigation between pages.
+  e. Install prettier extension in VS Studio Code to easily format document.
+7. I structured my content with HTML. I input the given text for the website which focused my attention on creating well-structured content.
+8. After everything was ready to go, I started coding from the top down with the website page. I began with thinking about which pieces could be reusable such as buttons, type, etc. I started with the navigation bar and build process. 
+9. After the icon and navigation bar were semi-done, I went down the page and built out the main sections to a get a resemblance of what the page should look like.
 10. Went back and tweaked areas that needed improvement 
   a. removed excess component thought I would need but didn't - countdowncards to countdown - didn't need to
   b. Increased the pt to 10 to push down the application a bit to match the example
