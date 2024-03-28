@@ -11,6 +11,12 @@ module.exports = {
       }
     },
   },
+  variants: {
+    extend: {
+      ringWidth: ['focus'], // this line enables focus for ring
+      outline: ['focus'], // this line enables focus for outline
+    },
+  },
   plugins: [],
 }
 
