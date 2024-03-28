@@ -115,15 +115,12 @@ There were a number of things I learned building this project which was fun and 
 
 Things I learned as I went through the build:
 1. An indvidual needs to extract the zip file on Microsoft computers to be able to access images to move into the src images folder in VS Studio Code. This was the first project I build on a Windows computer, normally I use MacOS.
-2. In the beginning when I was cleaning my file for basic structure, I deleted the public index.html file. I learned to not delete your public index.html file. I had to go back to my Github previous commit save, copy that file and add it back into my project. 
-3. React-router-dom --> you need to wrap your index.js file with it to get all functionality of the router dom for all components
-4. Added manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." Realized related to index.html file in public folder - removed mention of manifest file in index.html folder and worked - removed error
-5. Added button component in App.js when really needed in another component - imported with no use and ESLint errored a message. Also button HTML is <button> and not <Button>
-6. Ran npm run build in terminal to rebuild the project - tailwind css was not set up correctly/being imported
-7. Grid container formatting for the countdown sections - formatting the divs to make sense - switched to 6 columns instead of 3
-8. Styling the button itself and not the container the button sits in - 
-9. span props for the container
-10. Using font presented - downloaded in font translator
+2. In the beginning when I was cleaning my file for basic structure, I deleted the public index.html file. I learned to not delete your public index.html file. I had to go back to my Github previous commit save, copy that file and add it back into my project. The public index.html file is the main HTML page that is loaded when someone visits the site or is the "entry point". In a React application, the file includes a div with the id of roo and the React app is loaded into this div by JS code. When you run npm run build the React scripts take the JS code and inject it into this index.html file which is served to the brower. If deleted, the build process won't know where to inject the JS code and won't load the file to your site.
+3. With react-router-dom, an individual needs to wrap the project's code in the index.js file. This allows for the project to receive all functionality of the router dom for all components.
+4. I added a manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." I later realized the manifest json file was related to index.html file in public folder. I removed the manifest file in index.html folder and it removed the error. The manifest.json file is used to configure how the app appears on the home screen on smartphones. It's not mandatory for app applications. I did not need the features of the file.
+5. With the button component, I had a few errors that I resolved. A simple yet error-friendly issue was the capitilization of the button from <Button> to <button>. I also added the button component in App.js when in reality I needed it in another component. Due to it being in the App.js, I was receiving a ESLint error message due to it not being used in App.js To resolve I removed the import of the button from App.js. Furthermore, I needed to style the button itself and not the container in which is was a part of - this fixed some of the styling issues with the button.
+6. I didn't realize I had to run "npm run build" in terminal to rebuild the project. I learned this throughout and thus fixed the error message and build. 
+7. Grid container formatting was challenging at first. I used it for the countdown sections. I was able to educate myself about this on Tailwind CSS.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -143,7 +140,6 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
