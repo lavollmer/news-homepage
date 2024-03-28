@@ -3,7 +3,13 @@ module.exports = {
   // content array is to specify the files that Tailwind should look for classes in
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inter-regular': ['Inter-Regular', 'sans-serif'],
+        'inter-bold': ['Inter Bold', 'sans-serif'],
+        'inter-extra-bold': ['Inter ExtraBold', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
