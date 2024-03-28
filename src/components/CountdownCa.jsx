@@ -3,12 +3,12 @@ import Retro from "../assets/images/image-retro-pcs.jpg";
 
 const CountdownCa = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-6 ">
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div>
+    <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-4 md:grid-cols-6">
+        <div className="col-span-1 md:col-span-2">
           <img src={Retro} alt="Retro PCs" />
         </div>
-        <div>
+        <div className="col-span-3 md:col-span-4 pl-2">
             <h1 className="text-gray-400 font-bold text-2xl">01</h1>
             <h2 className="text-black-800 font-bold text-md ">
                 Reviving Retro PCs
@@ -18,7 +18,7 @@ const CountdownCa = () => {
             </p>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 
