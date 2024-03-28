@@ -71,6 +71,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
   c. Styling the countdown section - updated
 11. Font styling 
 12. Color styling with Coolors
+13. Functionality with hover and focus states of user areas
 
 ### Built with
 
