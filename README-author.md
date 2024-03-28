@@ -86,34 +86,36 @@ See below my steps to completing it:
 7. I structured my content with HTML. I input the given text for the website which focused my attention on creating well-structured content.
 8. After everything was ready to go, I started coding from the top down with the website page. I began with thinking about which pieces could be reusable such as buttons, type, etc. I started with the navigation bar and build process. 
 9. After the icon and navigation bar were semi-done, I went down the page and built out the main sections to a get a resemblance of what the page should look like.
-10. Went back and tweaked areas that needed improvement 
-  a. removed excess component thought I would need but didn't - countdowncards to countdown - didn't need to
-  b. Increased the pt to 10 to push down the application a bit to match the example
-  c. Styling the countdown section - updated
-11. Font styling 
-12. Color styling with Coolors
-13. Functionality with hover and focus states of user areas
+10. After all major sections were in place such as the "new section", the "countdown section" and the "splash page", then I started to go through and look very close to the details. I went through each section and updated with improvements to match the example exactly.
+  a. I removed excess components that I thought I would need but didn't. I had a Countdown component to house the CountdownCards component realizing I didn't need it. Additionally I deleted the MobileMenu component care as well.
+  b. Another example, was I increased the top padding of the website to 10 to align the website more with the example on the desktop version.
+  c. Futhermore, I used Coolors application to find the correct colors sourced from the image to use it in my website. This is the Coolors colors I used:
+  ![Coolors Colors](./src/assets/readmeimages/CoolorsColors.jpg.png)
+  d. I worked on Font styling with the given Fonts. I realized I had to import the fonts through a path in the App.css file before importing tailwind CSS utilities. The files give were incompatible with VS Studio Code so I used Transfonter to change the TTF files into WOFF and WOFF2 files. A TTF file is a TrueType Font file which is binary and that is used my the operating system. VS Studio Code is a text editor and cannot open binary files there you must change it to WOFF files.  Afterwards, I had to import those fonts into the tailwind.config.js file to be able to use in the website application. 
+  e. Adding an icon into the HTML of the public folder for the tab image. I found a free image online of a world icon in which I added to the public folder for use.
+11. In the prompt, it was stated to add functionality with hover and focus states of user areas. I was able to add hover tailwind CSS utilities to the navbar and the button to guide users on what they were selecting.
+12. After completing the build and design process, I was reuploaded to Netlify after running an npm build. Netlify was able to deploy the website.
+13. Finally, I finished the project with writing the README. Throughout the project I wrote in the README notes on process, areas of improvement, etc. I added screenshots, improved the reading quality and updated information. 
+14. Enjoy my website and product!
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - ReactJS
 - Next.js
 - Tailwind CSS
 - Vite
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Coolors Application
+- Git Version Control
 
 ### What I learned
 
-1. Extract zip file on Microsoft to be able to access images to move into folder
-2. Do not delete your public index.html file - I had to go back to Github previous commit save --> bring it back
+There were a number of things I learned building this project which was fun and exciting. 
+
+Things I learned as I went through the build:
+1. An indvidual needs to extract the zip file on Microsoft computers to be able to access images to move into the src images folder in VS Studio Code. This was the first project I build on a Windows computer, normally I use MacOS.
+2. In the beginning when I was cleaning my file for basic structure, I deleted the public index.html file. I learned to not delete your public index.html file. I had to go back to my Github previous commit save, copy that file and add it back into my project. 
 3. React-router-dom --> you need to wrap your index.js file with it to get all functionality of the router dom for all components
 4. Added manifest.json file due to console error "Manifest: Line: 1, column: 1, Syntax error." Realized related to index.html file in public folder - removed mention of manifest file in index.html folder and worked - removed error
 5. Added button component in App.js when really needed in another component - imported with no use and ESLint errored a message. Also button HTML is <button> and not <Button>
