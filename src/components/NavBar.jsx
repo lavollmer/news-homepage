@@ -9,7 +9,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false); //useState hook to manage the state of the navbar
   return (
     // <div className="flex flex-row pt-5 pb-10 justify-end">
-    <div>
+    <div className="bg-[#FEFDF9]">
       {/* Menu icon img is only visible when the screen is smaller than medium - when toggled isOpen state opening or closing sidebar */}
         <button
           className="md:hidden block top-0 right-0"
@@ -24,17 +24,15 @@ const NavBar = () => {
         {/* when isOpen is true then translatex-0 appears showing the sidebar */}
         {/* when the screen is a medium size or larger the sidebar is always visible and positioned normally */}
 
-        <nav
-          className={`fixed top-0 right-0 w-full h-full bg-white transform transition-transform duration-200 ease-in-out 
-          ${isOpen ? `translate-x-0` : `translate-x-ful`}`}>
+        <nav className={`fixed top-0 right-0 w-3/4 h-full bg-[#FEFDF9] transform transition-transform duration-200 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           {/* Close Icon to close the side navigation bar when in mobile */}
           <button
-            // className="md:hidden top-0 right-0"
+          className="absolute top-0 right-0 m-2"
             onClick={() => setIsOpen(false)}
           >
             <img src={IconClose} alt="close icon" />
           </button>
-          <div className="flex flex-col text-[#98959C] font-inter-regular justify-end space-y-10 w-full pb-10">
+          <div className=" flex flex-col text-[#98959C] text-black font-inter-regular font-bold justify-end space-y-5 w-full pb-10 mt-40 ml-5">
             <Link to="/" className="hover:text-black" onClick={() => setIsOpen(false)}>
               Home
             </Link>
