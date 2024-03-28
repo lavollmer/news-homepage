@@ -3,7 +3,6 @@ import Icon from "./components/Icon"; //import the Icon component
 import NavBar from "./components/NavBar"; // Import the NavBar component
 import SplashPage from "./components/SplashPage"; // Import the SplashPage component
 import NewSection from "./components/NewSection"; // Import the NewSection component
-import CountdownCards from "./components/CountdownCards";
 import CountdownCa from "./components/CountdownCa";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <NewSection span="col-span-1"/>
       </div>
       <div className="grid grid-cols-1 gap-4 px-60 py-10">
-        <CountdownCards />
         <CountdownCa />
       </div>
     </div>

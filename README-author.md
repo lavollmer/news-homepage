@@ -64,6 +64,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 10. Went back and tweaked areas that needed improvement 
   a. removed excess component thought I would need but didn't - countdowncards to countdown - didn't need to
   b. Increased the pt to 10 to push down the application a bit to match the example
+  c. Styling the countdown section - updated
+11. Font styling 
 
 ### Built with
 
@@ -92,6 +94,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 7. Grid container formatting for the countdown sections - formatting the divs to make sense - switched to 6 columns instead of 3
 8. Styling the button itself and not the container the button sits in - 
 9. span props for the container
+10. Using font presented - downloaded in font translator
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
