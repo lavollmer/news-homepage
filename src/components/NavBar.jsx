@@ -24,7 +24,7 @@ const NavBar = () => {
         {/* when isOpen is true then translatex-0 appears showing the sidebar */}
         {/* when the screen is a medium size or larger the sidebar is always visible and positioned normally */}
 
-        <nav className={`fixed top-0 right-0 w-3/4 h-full bg-[#FEFDF9] transform transition-transform duration-200 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <nav className={`md:hidden fixed top-0 right-0 w-3/4 h-full bg-[#FEFDF9] transform transition-transform duration-200 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           {/* Close Icon to close the side navigation bar when in mobile */}
           <button
           className="absolute top-0 right-0 m-2"
@@ -32,7 +32,7 @@ const NavBar = () => {
           >
             <img src={IconClose} alt="close icon" />
           </button>
-          <div className=" flex flex-col text-[#98959C] text-black font-inter-regular font-bold justify-end space-y-5 w-full pb-10 mt-40 ml-5">
+          <div className="flex flex-col text-black text-black font-inter-regular font-bold justify-end space-y-5 w-full pb-10 mt-40 ml-5">
             <Link to="/" className="hover:text-black" onClick={() => setIsOpen(false)}>
               Home
             </Link>
@@ -50,6 +50,26 @@ const NavBar = () => {
             </Link>
           </div>
       </nav>
+
+      <div>
+        <div className="hidden md:flex text-[#98959C] items-center space-x-5 justify-end">
+          <Link to="/" className="hover:text-black">
+            Home
+          </Link>
+          <Link to="/new" className="hover:text-black">
+            New
+          </Link>
+          <Link to="/popular" className="hover:text-black">
+            Popular
+          </Link>
+          <Link to="/trending" className="hover:text-black">
+            Trending
+          </Link>
+          <Link to="/categories" className="hover:text-black">
+            Categories
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
